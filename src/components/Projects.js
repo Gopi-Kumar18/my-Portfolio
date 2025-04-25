@@ -14,9 +14,9 @@ const Projects = () => {
         <div className="project-content">
           <div className="project-description">
             <p>
-            DocSwitch is an MERN based document conversion platform that streamlines file format transformations with ease. Built using a modern tech stack, it leverages powerful third-party APIs like CloudConvert, iLovePDF, and Adobe PDF Services to support seamless conversion between PDF, Word, Excel, and more. The system automates backend processing and integrates with a responsive frontend for real-time interaction. It's designed for efficiency, reliability, and versatility in handling various document formats across platforms.for added variety.
+            DocSwitch is an MERN based document conversion platform that streamlines file format transformations with ease. Built using a modern tech stack, it leverages powerful third-party APIs like CloudConvert, iLovePDF, and Adobe PDF Services to support seamless conversion between PDF, Word, Excel, and more. The system automates backend processing and integrates with a responsive frontend for real-time interaction. It's designed for efficiency, reliability, and versatility in handling various document formats.
             </p>
-            <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, ILOVE_API, Adobe PDF Services API, Cloud_Convert API</p>
+            <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, I_LOVE_API, Adobe PDF Services API, Cloud_Convert API</p>
             <div className="project-buttons">
               <a href="https://github.com/Gopi-Kumar18/DocSwitch/" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
@@ -54,7 +54,7 @@ const Projects = () => {
             <p>
             TripNest is a responsive travel website built using React, HTML, CSS, and Bootstrap. The platform showcases a variety of tourism packages, helping users explore and book their ideal travel experiences. It highlights attractive pricing and frequently features unbeatable deals on popular destinations, making travel both exciting and budget-friendly.
             </p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, BootStrap</p>
             <div className="project-buttons">
               <a href="https://github.com/Gopi-Kumar18/TripNest_Tourism_App" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
               <a href="#" className="btn">View Live</a>
