@@ -29,11 +29,11 @@ const Contact = () => {
           <div>
             <h3>LinkedIn</h3>
             <a
-              href="https://www.linkedin.com/in/gopi-k18/"
+              href="https://www.linkedin.com/in/gopi-kumar18/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://www.linkedin.com/in/gopi-k18/
+              https://www.linkedin.com/in/gopi-kumar18/
             </a>
           </div>
         </div>

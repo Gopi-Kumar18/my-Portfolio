@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Skills.css";
 import Java from '../assets/images/Java.png';
 import cppImg from '../assets/images/CPP.png';
+import pyImg from '../assets/images/py.png';
 
 import htmlImg from '../assets/images/html.png';
 import cssImg from '../assets/images/css.png';
@@ -9,14 +10,18 @@ import jsImg from '../assets/images/js.png';
 import reactImg from '../assets/images/react.png';
 import bootstrap from '../assets/images/bootstrap.png';
 
-import nodejsImg from '../assets/images/nodejs.png';
+// import nodejsImg from '../assets/images/nodejs.png';
 import expressImg from '../assets/images/express.png';
 import phpImg from '../assets/images/php.svg';
+import django from '../assets/images/django.png';
 import springboot from '../assets/images/springboot.png';
+import laravel from '../assets/images/laravel.jpg';
 
 import git from '../assets/images/git.png';
 import postman from '../assets/images/postman.png';
 import docker from '../assets/images/docker.png';
+import puppet from '../assets/images/puppet.png';
+
 
 import mysqlImg from '../assets/images/mysql.png';
 import mongodbImg from '../assets/images/mongodb.png';
@@ -33,6 +38,7 @@ const Skills = () => {
           <div className="skill-icons">
             <img src={Java} alt="Java" />
             <img src={cppImg} alt="C++" />
+            <img src={pyImg} alt="C++" />
           </div>
         </div>
 
@@ -50,10 +56,11 @@ const Skills = () => {
         <div className="skill-category">
           <h2>Backend</h2>
           <div className="skill-icons">
-            <img src={nodejsImg} alt="Node.js" />
+            {/* <img src={nodejsImg} alt="Node.js" /> */}
             <img src={expressImg} alt="Express.js" />
-            <img src={phpImg} alt="PHP" />
             <img src={springboot} alt="spring" />
+            <img src={django} alt="spring" />
+            <img src={laravel} alt="PHP" />
           </div>
         </div>
 
@@ -63,7 +70,7 @@ const Skills = () => {
             <img src={git} alt="gag" />
             <img src={postman} alt="postman" />
             <img src={docker} alt="docker" />
-            {/* <img src={springboot} alt="spring" /> */}
+            <img src={puppet} alt="puppet" />
           </div>
         </div>
 

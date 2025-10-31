@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
-import DocSwitch from '../assets/images/DocSwitch.png';
+import docswitch from '../assets/images/docswitch.png';
 import Artistry from '../assets/images/Artistry.jpg';
 import TripNest from '../assets/images/TripNest.png';
 
@@ -18,12 +18,12 @@ const Projects = () => {
             </p>
             <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, I_LOVE_API, Adobe PDF Services API, Cloud_Convert API</p>
             <div className="project-buttons">
-              <a href="https://github.com/Gopi-Kumar18/DocSwitch/" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
+              <a href="https://github.com/Gopi-Kumar18/docswitch/" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href="https://docswitch.vercel.app" target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={DocSwitch} alt="DocSwitch file converter" />
+            <img src={docswitch} alt="DocSwitch file converter" />
           </div>
         </div>
       </div>
